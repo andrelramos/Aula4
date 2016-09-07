@@ -1,4 +1,4 @@
-{{
+{
   Uma empresa deve desenvolver um programa para controlar o salário de todos os seus funcionários. As informações
   que ela mantém sobre cada funcionário são: registro_funcionario, nome, cargo e salario
   Esta estrutura de dados deve ser armazenada em um vetor de registro onde cada posição contém um funcionário.
@@ -8,7 +8,7 @@
   - Um procedimento para imprimir todos os funcionários.
   - Um procedimento para imprimir os funcionários que ganham acima de 5000,00 reais .
   - Um programa principal para a chamada de cada procedimento
-}}
+}
 
 Program Exc1;
 uses Crt;
