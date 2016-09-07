@@ -93,7 +93,7 @@ Begin
     write('Quantos motoristas você deseja cadastrar? (máximo 20): ');
     readln(n);
     ClrScr;
-  until(n < 20);
+  until(n <= 20);
 
   ler(vet, n);
   imprimir(vet, n);
