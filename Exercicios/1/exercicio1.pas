@@ -55,7 +55,7 @@ Procedure imprimir(vet: vet_funcs);
         writeln('Registro do funcionário ', i, ': ', vet[i].n_registro);
         writeln('Nome do funcionário ', i, ': ', vet[i].nome);
         writeln('Cargo do funcionário ', i, ': ', vet[i].cargo);
-        writeln('Salário do funcionário ', i, ': ', vet[i].salario);
+        writeln('Salário do funcionário ', i, ': ', vet[i].salario:6:2);
       end;
   end;
 
@@ -74,7 +74,7 @@ Procedure imprimir5000(vet: vet_funcs);
             writeln('Registro do funcionário ', i, ': ', vet[i].n_registro);
             writeln('Nome do funcionário ', i, ': ', vet[i].nome);
             writeln('Cargo do funcionário ', i, ': ', vet[i].cargo);
-            writeln('Salário do funcionário ', i, ': ', vet[i].salario);
+            writeln('Salário do funcionário ', i, ': ', vet[i].salario:6:2);
           end;
       end;
   end;
